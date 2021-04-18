@@ -19,7 +19,7 @@ const IndexPage = () => {
           <a draggable="false" target="_blank" rel="noreferrer" href="https://twitter.com/loertis_"><button>Twitter</button></a>
           <a draggable="false" target="_blank" rel="noreferrer" href="https://behance.com/coopertsoris"><button>Behance</button></a>
           <a draggable="false" target="_blank" rel="noreferrer" href="mailto:hello@coopertsoris.dev"><button>Email</button></a>
-          <br/><a draggable="false" href="https://coopertsoris.dev"><button>Main Site</button></a>
+          <a draggable="false" href="https://coopertsoris.dev"><button>Main Site</button></a>
         </div>
       </div>
       <div className="right_image"></div>
