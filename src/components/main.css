@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.body, .cursor, button, a, div {cursor: url("../images/cursor.png"), auto;}
+.cursor {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+button {
+    transition: .2s;
+    min-width: 175px;
+    padding: 8px 50px;
+    margin-top: 12px;
+    background: transparent;
+    color: black;
+    border-radius: 200px;
+    border: 2.5px solid black;
+    font: 500 16px "inter";
+    font-style: normal;
+    text-align: center;
+}
+button:hover {
+    background: black;
+    color: white;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+.elements {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+.right_image {
+    position: absolute;
+    width: 50%;
+    height: 92%;
+    right: 0px;
+    margin: 1.85%;
+    box-sizing: border-box;
+    background: url("../images/background.webp");
+    background-size: cover;
+}
+@media only screen and (max-width:1000px) {
+    .right_image {
+        display: none;
+    }
+    .elements {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-align: left;
+    }
+}
