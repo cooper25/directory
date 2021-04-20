@@ -3,6 +3,8 @@ import "../components/main.css";
 import Helmet from "react-helmet";
 import name from "../images/cooper.svg";
 
+//var header = "<b>It's earth-day!</b> <a href='https://www.earthday.org/our-work/'>Learn more</a> about earth-day and its importance.";
+
 const IndexPage = () => {
   return (
     <body>
@@ -22,9 +24,14 @@ const IndexPage = () => {
           <a draggable="false" href="https://coopertsoris.dev"><button>Main Site</button></a>
         </div>
       </div>
-      <div className="right_image"></div>
+      <div className="right_image">
+        <header><b>It's earth-day!</b> <a href='https://www.earthday.org/our-work/'>Learn more</a> about earth-day and its importance.</header>
+      </div>
     </body>
   )
 }
 
 export default IndexPage
+
+
+// does anybody know howw the fuck I fix this
