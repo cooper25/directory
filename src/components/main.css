@@ -74,6 +74,19 @@ header b {
     display: none;
 }
 @media only screen and (max-width:1000px) {
+    body {
+        background: black;
+    }
+    .mobile-round {
+        position: absolute;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+        background: white;
+        border-radius: 10px;
+        z-index: -100;
+    }
     .right_image {
         display: none;
     }

@@ -17,16 +17,17 @@ const IndexPage = () => {
       <div className="elements">
         <img src={name} draggable="false" alt="cooper"/><br/><br/>
         <div className="buttons">
-          <a draggable="false" target="_blank" rel="noreferrer" href="https://discord.com/users/307273393600724994/"><button>Discord</button></a>
-          <a draggable="false" target="_blank" rel="noreferrer" href="https://twitter.com/loertis_"><button>Twitter</button></a>
-          <a draggable="false" target="_blank" rel="noreferrer" href="https://behance.com/coopertsoris"><button>Behance</button></a>
-          <a draggable="false" target="_blank" rel="noreferrer" href="mailto:hello@coopertsoris.dev"><button>Email</button></a>
+          <a draggable="false" target="_blank" rel="noopener noreferrer" href="https://discord.com/users/307273393600724994/"><button>Discord</button></a>
+          <a draggable="false" target="_blank" rel="noopener noreferrer" href="https://twitter.com/loertis_"><button>Twitter</button></a>
+          <a draggable="false" target="_blank" rel="noopener noreferrer" href="https://behance.com/coopertsoris"><button>Behance</button></a>
+          <a draggable="false" target="_blank" rel="noopener noreferrer" href="mailto:hello@coopertsoris.dev"><button>Email</button></a>
           <a draggable="false" href="https://coopertsoris.dev"><button>Main Site</button></a>
         </div>
       </div>
       <div className="right_image">
-        <header><b>It's earth-day!</b> <a href='https://www.earthday.org/our-work/'>Learn more</a> about earth-day and its importance.</header>
+        <header><b>It's earth-day!</b> <a href="https://www.earthday.org/our-work/" target="_blank" rel="noopener noreferrer">Learn more</a> about earth-day and its importance.</header>
       </div>
+      <div className="mobile-round"></div>
     </body>
   )
 }
