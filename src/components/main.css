@@ -74,7 +74,7 @@ header b {
     display: none;
 }
 @media only screen and (max-width:1000px) {
-    body {
+    /* body {
         background: black;
     }
     .mobile-round {
@@ -86,7 +86,7 @@ header b {
         background: white;
         border-radius: 10px;
         z-index: -100;
-    }
+    } */
     .right_image {
         display: none;
     }
