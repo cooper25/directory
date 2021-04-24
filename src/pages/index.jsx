@@ -25,14 +25,11 @@ const IndexPage = () => {
         </div>
       </div>
       <div className="right_image">
-        <header><b>It's earth-day!</b> <a href="https://www.earthday.org/our-work/" target="_blank" rel="noopener noreferrer">Learn more</a> about earth-day and its importance.</header>
+        <header><b>Do you like this portal?</b> Give us feedback on your thoughts by <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScHxqRdDrGO7YCUq6BAxxRTAghPusxdJfV8BHfKo8C8QQgiew/viewform?usp=sf_link">clicking here</a>.</header>
+        <footer>Photo by <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/@linglivestolaugh">Ling Tang</a> on <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/t/wallpapers">Unsplash</a>   </footer>
       </div>
-      <div className="mobile-round"></div>
     </body>
   )
 }
 
 export default IndexPage
-
-
-// does anybody know howw the fuck I fix this

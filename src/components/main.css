@@ -18,7 +18,7 @@ body {
 button {
     transition: .2s;
     min-width: 175px;
-    padding: 8px 50px;
+    padding: 7px 50px;
     margin-top: 12px;
     background: transparent;
     color: black;
@@ -45,48 +45,54 @@ button:hover {
 .right_image {
     position: absolute;
     width: 50%;
-    height: 92%;
+    height: 90%;
     right: 0px;
-    margin: 1.85%;
+    margin: 2.25%;
     box-sizing: border-box;
-    background: url("../images/background-earthday.webp");
+    background: url("../images/background.webp");
     background-size: cover;
-    border-radius: 7px;
+    border-radius: 8px;
 }
 header {
     margin: 0px;
     padding: 2%;
     text-align: center;
-    background: pink;
-    color: black;
+    background: black;
+    color: white;
     font: 400 12px "inter";
-    border-radius: 7px 7px 0px 0px;
+    border-radius: 8px 7px 0px 0px;
 }
 header a {
-    color: black;
+    transition: .2s;
+    color: white;
     font-weight: 600;
     cursor: pointer;
+}
+header a:hover {
+    color: pink;
 }
 header b {
     font-weight: 600;
 }
-.mobile {
-    display: none;
+footer {
+    margin: 0px;
+    padding: 30px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font: 500 14px "inter";
+    color: #ffffff80;
+}
+footer a {
+    color: #ffffff80;
+    font-weight: 600;
+    transition: .2s;
+    cursor: pointer;
+}
+footer a:hover {
+    color: #ffffff;
 }
 @media only screen and (max-width:1000px) {
-    /* body {
-        background: black;
-    }
-    .mobile-round {
-        position: absolute;
-        margin: 0px;
-        padding: 0px;
-        width: 100%;
-        height: 100%;
-        background: white;
-        border-radius: 10px;
-        z-index: -100;
-    } */
     .right_image {
         display: none;
     }
