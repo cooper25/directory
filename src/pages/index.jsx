@@ -3,8 +3,6 @@ import "../components/main.css";
 import Helmet from "react-helmet";
 import name from "../images/cooper.svg";
 
-//var header = "<b>It's earth-day!</b> <a href='https://www.earthday.org/our-work/'>Learn more</a> about earth-day and its importance.";
-
 const IndexPage = () => {
   return (
     <body>
@@ -25,7 +23,7 @@ const IndexPage = () => {
         </div>
       </div>
       <div className="right_image">
-        <header><b>Do you like this portal?</b> Give us feedback on your thoughts by <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScHxqRdDrGO7YCUq6BAxxRTAghPusxdJfV8BHfKo8C8QQgiew/viewform?usp=sf_link">clicking here</a>.</header>
+        <header><b>Do you like the directory?</b> Tell us your thoughts by <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScHxqRdDrGO7YCUq6BAxxRTAghPusxdJfV8BHfKo8C8QQgiew/viewform?usp=sf_link">clicking here</a>.</header>
         <footer>Photo by <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/@linglivestolaugh">Ling Tang</a> on <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/t/wallpapers">Unsplash</a>   </footer>
       </div>
     </body>
