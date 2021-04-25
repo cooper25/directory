@@ -79,7 +79,7 @@ header {
     border-radius: 8px 7px 0px 0px;
 }
 header a {
-    transition: .5s;
+    transition: .2s;
     color: white;
     font-weight: 600;
 }
