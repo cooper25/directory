@@ -1,12 +1,7 @@
 import * as React from "react";
 import "../components/main.css";
 import Helmet from "react-helmet";
-import $ from "jquery";
 import name from "../images/cooper.svg";
-
-$.getJSON("http://worldtimeapi.org/api/timezone/America/Chicago", function(data){
-  console.log(data.datetime)
-})
 
 const IndexPage = () => {
   return (
