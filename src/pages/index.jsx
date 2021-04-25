@@ -1,7 +1,12 @@
 import * as React from "react";
 import "../components/main.css";
 import Helmet from "react-helmet";
+import $ from "jquery";
 import name from "../images/cooper.svg";
+
+$.getJSON("http://worldtimeapi.org/api/timezone/America/Chicago", function(data){
+  console.log(data.datetime)
+})
 
 const IndexPage = () => {
   return (
@@ -22,8 +27,9 @@ const IndexPage = () => {
           <a draggable="false" href="https://coopertsoris.dev"><button>Main Site</button></a>
         </div>
       </div>
-      <div className="right_image">
-        <header><b>Do you like the directory?</b> Tell us your thoughts by <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScHxqRdDrGO7YCUq6BAxxRTAghPusxdJfV8BHfKo8C8QQgiew/viewform?usp=sf_link">clicking here</a>.</header>
+      <div className="right_image-container">
+        <div className="right_image"></div>
+        <header><b>Do you like the directory?</b> Give me your thoughts by <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScHxqRdDrGO7YCUq6BAxxRTAghPusxdJfV8BHfKo8C8QQgiew/viewform?usp=sf_link">clicking here</a>.</header>
         <footer>Photo by <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/@linglivestolaugh">Ling Tang</a> on <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/t/wallpapers">Unsplash</a>   </footer>
       </div>
     </body>
