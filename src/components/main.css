@@ -107,6 +107,9 @@ footer a {
     font-weight: 600;
     cursor: pointer;
 }
+footer a:hover {
+    color: #ffffff;
+}
 @media only screen and (max-width:1000px) {
     .right_image-container {
         display: none;
