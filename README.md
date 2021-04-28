@@ -2,6 +2,13 @@
 (basically a custom linktree)
 ___
 
+## Instructions
+
+1.) Change the Logo (src > images > cooper.svg)
+2.) Change the Background (src > images > background.jpg)
+3.) Initiate with Gatsby
+___
+
 If you have any questions, feel free to email me.
 *The email is linked in the directory. :P*
 ___
