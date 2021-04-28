@@ -12,7 +12,6 @@ const IndexPage = () => {
         <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "cc640b32a0bb4966b346d0f9083e3489"}'></script>
       </Helmet>
       <div className="cursor"></div>
-      <header><b>Did you know my directory is open source?</b> You can view it on Github by clicking <a target="_blank" rel="noopener noreferrer" href="https://github.com/cooper25/directory/">here</a></header>
       <div className="elements">
         <img src={name} draggable="false" alt="cooper"/><br/><br/>
         <div className="buttons">
@@ -24,6 +23,7 @@ const IndexPage = () => {
         </div>
       </div>
       <div className="right_image-container">
+        <header><b>Did you know my directory is open source?</b> You can view it on Github by clicking <a target="_blank" rel="noopener noreferrer" href="https://github.com/cooper25/directory/">here</a></header>
         <div className="right_image"></div>
         <footer>Photo by <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/@linglivestolaugh">Ling Tang</a> on <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/t/wallpapers">Unsplash</a>   </footer>
       </div>
