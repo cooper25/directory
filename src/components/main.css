@@ -72,6 +72,8 @@ button:hover {
 header {
     margin: 0px;
     padding: 2%;
+    position: absolute;
+    width: 100%;
     text-align: center;
     background: black;
     color: white;
