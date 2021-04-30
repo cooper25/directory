@@ -23,6 +23,7 @@ const IndexPage = () => {
         </div>
       </div>
       <div className="right_image-container">
+        <header><b>Did you know my directory is open-source?</b> View it on <a href="https://github.com/cooper25/directory">GitHub</a>!</header>
         <div className="right_image"></div>
         <footer>Photo by <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/@linglivestolaugh">Ling Tang</a> on <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/t/wallpapers">Unsplash</a>   </footer>
       </div>

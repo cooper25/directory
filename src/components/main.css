@@ -22,7 +22,7 @@ button {
     margin-top: 12px;
     background: transparent;
     color: black;
-    border-radius: 200px;
+    border-radius: 100vh;
     border: 2.5px solid black;
     font: 500 16px "inter";
     font-style: normal;
@@ -55,7 +55,7 @@ button:hover {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url("../images/background.jpg") rgb(66, 146, 167);
+    background: url("../images/background.jpg") #7bb1b9;
     background-size: 120vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -69,6 +69,9 @@ button:hover {
 .right_image-container:hover footer, .right_image-container:hover footer a {
     color: #ffffffc4;
 }
+.right_image-container:hover footer a:hover {
+    color: #ffffff;
+}
 header {
     margin: 0px;
     padding: 2%;
@@ -78,7 +81,8 @@ header {
     background: black;
     color: white;
     font: 400 12px "inter";
-    border-radius: 8px 7px 0px 0px;
+    border-radius: 8px 8px 0px 0px;
+    box-sizing: border-box;
     z-index: 1000000;
 }
 header a {
@@ -87,7 +91,7 @@ header a {
     font-weight: 600;
 }
 header a:hover {
-    color: pink;
+    color: #7bb1b9;
 }
 header b {
     font-weight: 600;
@@ -108,10 +112,6 @@ footer a {
     transition: .2s;
     color: #ffffff00;
     font-weight: 600;
-    cursor: pointer;
-}
-footer a:hover {
-    color: #ffffff;
 }
 @media only screen and (max-width:1000px) {
     .right_image-container {
