@@ -5,10 +5,13 @@ import name from "../images/cooper.svg";
 
 const IndexPage = () => {
   return (
-    <body>
+    <body lang="en">
       <Helmet>
         <title>cppr.design - directory</title>
+        <meta name="author" content="Cooper Tsoris"/>
+        <meta name="theme-color" content="#000000"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="UTF-8"/>
         <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "cc640b32a0bb4966b346d0f9083e3489"}'></script>
       </Helmet>
       <div className="cursor"></div>
