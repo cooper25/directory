@@ -2,12 +2,14 @@ import * as React from "react";
 import "../components/main.css";
 import Helmet from "react-helmet";
 import name from "../images/cooper.svg";
+import favicon from "../images/favicon.png";
 
 const IndexPage = () => {
   return (
     <body lang="en">
       <Helmet>
         <title>cppr.design - directory</title>
+        <link rel="shortcut icon" type="image/png" href={favicon}></link>
         <meta name="author" content="Cooper Tsoris"/>
         <meta name="theme-color" content="#000000"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
