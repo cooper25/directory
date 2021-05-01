@@ -22,7 +22,7 @@ const IndexPage = () => {
         <div className="buttons">
           <a draggable="false" target="_blank" rel="noopener noreferrer" href="https://discord.com/users/307273393600724994/"><button>Discord</button></a>
           <a draggable="false" target="_blank" rel="noopener noreferrer" href="https://twitter.com/loertis_"><button>Twitter</button></a>
-          <a draggable="false" target="_blank" rel="noopener noreferrer" href="https://behance.com/coopertsoris"><button>Behance</button></a>
+          <a draggable="false" target="_blank" rel="noopener noreferrer" href="https://behance.net/coopertsoris"><button>Behance</button></a>
           <a draggable="false" target="_blank" rel="noopener noreferrer" href="mailto:hello@coopertsoris.dev"><button>Email</button></a>
           <a draggable="false" href="https://coopertsoris.dev"><button>Main Site</button></a>
         </div>
