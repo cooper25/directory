@@ -4,8 +4,8 @@ ___
 
 ## Instructions
 
-1.) Change the Logo (src > images > cooper.svg)
-2.) Change the Background (src > images > background.jpg)
+1.) Change the Logo (src > images > cooper.svg)<br>
+2.) Change the Background (src > images > background.jpg)<br>
 3.) Initiate with Gatsby
 ___
 
