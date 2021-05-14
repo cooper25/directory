@@ -16,8 +16,6 @@ const IndexPage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "cc640b32a0bb4966b346d0f9083e3489"}'></script>
         <script src='https://cooper25.github.io/hotjar.js'></script>
-        <link rel="stylesheet" href="https://use.typekit.net/opj2khw.css"></link>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=inter:wght@100;200;300;400;500;600;700;800;900&display=swap"></link>
       </Helmet>
       <div className="cursor"></div>
       <div className="elements">
@@ -33,7 +31,7 @@ const IndexPage = () => {
       </div>
       <div className="right_image-container">
         <div className="right_image"></div>
-        <footer>Photo by <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/@linglivestolaugh">Ling Tang</a> on <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/t/wallpapers">Unsplash</a>   </footer>
+        <footer>Photo by <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/@linglivestolaugh">Ling Tang</a> on <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/t/wallpapers">Unsplash</a></footer>
       </div>
     </body>
   )
