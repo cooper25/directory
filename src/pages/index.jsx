@@ -3,16 +3,25 @@ import "../components/main.css";
 import Helmet from "react-helmet";
 import name from "../images/cooper.svg";
 import favicon from "../images/favicon.png";
+import meta from "../images/meta.png";
 
 const IndexPage = () => {
   return (
     <body lang="en">
       <Helmet>
         <meta charset="UTF-8"/>
-        <title>cppr.design - directory</title>
+        <title>cooper - link directory</title>
         <link rel="shortcut icon" type="image/png" href={favicon}></link>
         <meta name="author" content="Cooper Tsoris"/>
-        <meta name="theme-color" content="#000000"/>
+        <meta name="title" content="cooper - link directory"></meta>
+        <meta name="theme-color" content="#303434"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://directory.cppr.dev/"/>
+        <meta property="og:title" content="cooper - link directory"/>
+        <meta property="og:image" content={meta}></meta>
+        <meta property="twitter:url" content="https://directory.cppr.dev/"/>
+        <meta property="twitter:title" content="cooper - link directory"/>
+        <meta property="twitter:image" content={meta}></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "cc640b32a0bb4966b346d0f9083e3489"}'></script>
         <script src='https://cooper25.github.io/hotjar.js'></script>
