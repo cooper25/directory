@@ -49,13 +49,13 @@ button:active {
 }
 .elements {
     position: absolute;
-    left: 10%;
+    left: 8%;
     top: 50%;
     transform: translate(0%, -50%);
 }
 .right_image-container {
     position: absolute;
-    width: 50%;
+    width: 60%;
     height: 90vh;
     right: 0px;
     margin: 4.90vh;
@@ -67,14 +67,14 @@ button:active {
     width: 100%;
     height: 100%;
     background: url("../images/background.jpg") #7bb1b9;
-    background-size: 120vh;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 8px;
     z-index: -1;
 }
 .right_image-container:hover .right_image {
-    background-size: 130vh;
+    background-size: 108%;
     filter: brightness(70%);
 }
 .right_image-container:hover footer, .right_image-container:hover footer a {
