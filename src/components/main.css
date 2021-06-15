@@ -18,7 +18,7 @@ body {
 button {
     transition: .2s;
     min-width: 180px;
-    padding: 7px 0px;
+    padding: 8px 0px;
     margin-top: 12px;
     background: transparent;
     color: black;

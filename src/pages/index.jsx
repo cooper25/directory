@@ -13,7 +13,7 @@ const IndexPage = () => {
         <title>cooper - link directory</title>
         <link rel="shortcut icon" type="image/png" href={favicon}></link>
         <meta name="author" content="Cooper Tsoris"/>
-        <meta name="title" content="cooper - link directory"></meta>
+        <meta name="title" content="cooper - link directory"/>
         <meta name="theme-color" content="#303434"/>
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="https://directory.cppr.dev/"/>
