@@ -41,7 +41,7 @@ const IndexPage = () => {
       <div className="right_image-container">
         <div className="right_image"></div>
         {/*<footer>Photo by <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/@linglivestolaugh">Ling Tang</a> on <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/t/wallpapers">Unsplash</a></footer>*/}
-        <footer>Photo by <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/@yulia_gadalina">Yulia Gadalina</a> on <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/t/wallpapers">Unsplash</a></footer>
+        <footer>Photo by <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/@colbyjray">Colby Ray</a> on <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/t/wallpapers">Unsplash</a></footer>
       </div>
     </body>
   )
