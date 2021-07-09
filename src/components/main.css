@@ -54,34 +54,52 @@ button:active {
     transform: translate(0%, -50%);
 }
 .right_image-container {
+    transition: .2s;
     position: absolute;
     width: 60%;
     height: 90vh;
     right: 0px;
     margin: 4.90vh;
     box-sizing: border-box;
+    border-radius: 8px;
 }
 .right_image {
     transition: .3s;
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url("../images/summer.jpg") #00000023;
-    background-size: 100%;
+    background: #00000023;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 8px;
     z-index: -1;
 }
 .right_image-container:hover .right_image {
-    background-size: 108%;
     filter: brightness(70%);
 }
-.right_image-container:hover footer, .right_image-container:hover footer a {
-    color: #ffffffc4;
+footer {
+    transition: .2s;
+    margin: 30px;
+    padding: 10px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    box-sizing: border-box;
+    font: 500 14px "Inter", sans-serif;
+    color: black;
+    background: white;
+    border-radius: 6px;
+    z-index: 1000;
+    opacity: 0%;
 }
-.right_image-container:hover footer a:hover {
-    color: #ffffff;
+footer a {
+    transition: .2s;
+    font-weight: 700;
+    text-decoration: none;
+}
+.right_image-container:hover footer, .right_image-container:hover footer a {
+    opacity: 100%;
 }
 header {
     margin: 0px;
@@ -107,22 +125,17 @@ header a:hover {
 header b {
     font-weight: 600;
 }
-footer {
+#learn-more {
     transition: .2s;
-    margin: 0px;
-    padding: 30px;
     position: absolute;
-    box-sizing: border-box;
-    text-align: right;
-    width: 100%;
-    bottom: 0px;
-    font: 500 15px "Inter", sans-serif;
-    color: #ffffff00;
-}
-footer a {
-    transition: .2s;
-    color: #ffffff00;
-    font-weight: 500;
+    background: #00000020;
+    color: #00000050;
+    font: 500 13px "Inter", sans-serif;
+    padding: 1px 5.6px;
+    margin-left: 10px;
+    margin-top: 22px;
+    border-radius: 1000px;
+    user-select: none;
 }
 @media only screen and (max-width:1000px) {
     .right_image-container {

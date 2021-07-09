@@ -39,9 +39,8 @@ const IndexPage = () => {
         </div>
       </div>
       <div className="right_image-container">
-        <div className="right_image"></div>
-        {/*<footer>Photo by <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/@linglivestolaugh">Ling Tang</a> on <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/t/wallpapers">Unsplash</a></footer>*/}
-        <footer>Photo by <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/@colbyjray">Colby Ray</a> on <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/t/wallpapers">Unsplash</a></footer>
+        <div style={{backgroundImage: "url(https://source.unsplash.com/1600x900/?beach,water,palm)"}} className="right_image"></div>
+        <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com"><footer>Random Image on <b>Unsplash</b></footer></a>
       </div>
     </body>
   )
