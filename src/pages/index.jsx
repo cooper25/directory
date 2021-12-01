@@ -30,10 +30,10 @@ const IndexPage = () => {
       <div className="elements">
         <img src={name} draggable="false" alt="cooper"/><br/><br/>
         <div className="buttons">
-          <a draggable="false" target="_blank" rel="noopener noreferrer" href="https://www.snapchat.com/add/cooperdev?share_id=MEY5QzBF&locale=en_US"><button>Snapchat</button></a>
+          <a draggable="false" target="_blank" rel="noopener noreferrer" href="https://www.snapchat.com/add/cooperdev?share_id=MEY5QzBF&locale=en_US"><button id="main">Snapchat</button></a>
           <a draggable="false" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/cooper.tsoris/"><button>Instagram</button></a>
           <a draggable="false" target="_blank" rel="noopener noreferrer" href="https://twitter.com/loertis_"><button>Twitter</button></a>
-          <a draggable="false" target="_blank" rel="noopener noreferrer" href="https://discord.com/users/307273393600724994/"><button id="main">cooper#0325</button></a>
+          <a draggable="false" target="_blank" rel="noopener noreferrer" href="https://discord.com/users/307273393600724994/"><button>cooper#0325</button></a>
           <a draggable="false" target="_blank" rel="noopener noreferrer" href="mailto:cooper@tsor.is"><button>Email</button></a>
           <a draggable="false" href="https://coopertsoris.dev"><button>Main Site</button></a>
         </div>
