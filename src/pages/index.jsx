@@ -39,7 +39,7 @@ const IndexPage = () => {
         </div>
       </div>
       <div className="right_image-container">
-        <div style={{backgroundImage: "url(https://source.unsplash.com/1600x900/?space)"}} className="right_image"></div>
+        <div className="right_image"></div>
         <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com"><footer>Random Image on <b>Unsplash</b></footer></a>
       </div>
     </body>
