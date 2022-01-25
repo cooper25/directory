@@ -23,8 +23,7 @@ const IndexPage = () => {
         <meta property="twitter:title" content="cooper - link directory"/>
         <meta property="twitter:image" content={meta}></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "cc640b32a0bb4966b346d0f9083e3489"}'></script>
-        <script src='https://cooper25.github.io/hotjar.js'></script>
+        <script defer data-domain="directory.cppr.dev" src="http://95.216.146.172:8000/js/plausible.js"></script>
       </Helmet>
       <div className="cursor"></div>
       <div className="elements">
