@@ -10,7 +10,7 @@ if (typeof window !== `undefined`) {
     const { enableAutoPageviews } = Plausible({
     domain: 'directory.cppr.dev',
     trackLocalhost: true,
-    apiHost: 'http://95.216.146.172:8000'
+    apiHost: 'https://plausible.tsor.is'
   })
 
   enableAutoPageviews()
@@ -34,7 +34,6 @@ const IndexPage = () => {
         <meta property="twitter:title" content="cooper - link directory"/>
         <meta property="twitter:image" content={meta}></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <script defer data-domain="directory.cppr.dev" src="https://plausible.io/js/plausible.js"></script>
       </Helmet>
       <div className="cursor"></div>
       <div className="elements">
