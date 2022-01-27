@@ -1,9 +1,19 @@
 import * as React from "react";
+import Plausible from 'plausible-tracker'
 import "../components/main.css";
 import Helmet from "react-helmet";
 import name from "../images/cooper.svg";
 import favicon from "../images/favicon.png";
 import meta from "../images/meta.png";
+
+// Plausible Analytics
+const { enableAutoPageviews } = Plausible({
+  domain: 'directory.cppr.dev',
+  trackLocalhost: true,
+  apiHost: 'http://95.216.146.172:8000'
+})
+
+enableAutoPageviews()
 
 const IndexPage = () => {
   return (
