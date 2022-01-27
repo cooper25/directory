@@ -6,14 +6,15 @@ import name from "../images/cooper.svg";
 import favicon from "../images/favicon.png";
 import meta from "../images/meta.png";
 
-// Plausible Analytics
-const { enableAutoPageviews } = Plausible({
-  domain: 'directory.cppr.dev',
-  trackLocalhost: true,
-  apiHost: 'http://95.216.146.172:8000'
-})
+if (typeof window !== `undefined`) {
+    const { enableAutoPageviews } = Plausible({
+    domain: 'directory.cppr.dev',
+    trackLocalhost: true,
+    apiHost: 'http://95.216.146.172:8000'
+  })
 
-enableAutoPageviews()
+  enableAutoPageviews()
+}
 
 const IndexPage = () => {
   return (
