@@ -27,6 +27,8 @@
     "react-helmet": "^6.1.0",
     "spotify-web-api-js": "^1.5.1",
     "styled-components": "^5.2.3",
-    "unsplash-js": "^7.0.13"
+    "unsplash-js": "^7.0.13",
+    "use-sound": "^4.0.1",
+    "wait": "^0.4.2"
   }
 }
